@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<yml_catalog date="2023-11-13 12:10">
+    <shop>
+        <name>Семейная стоматология «Аркобалено»</name>
+        <company>ООО «Аркобалено»</company>
+        <url>https://arcobaleno-dent.ru/</url>
+        <email>info@arcobaleno-dent.ru</email>
+        <picture>https://arcobaleno-dent.ru/images/logo.png</picture>
+        <description>Каталог врачей</description>
+        <currencies>
+          <currency id="RUR" rate="1" />
+        </currencies>
+        <categories>
+            <category id="1">Врач</category>
+        </categories>
+
+        <sets>
+            <set id="terapevt">
+                <name>Стоматолог-терапевт</name>
+                <url>https://arcobaleno-dent.ru/services/diagnostika/</url>
+            </set>
+			      <set id="ortoped">
+                <name>Стоматолог-ортопед</name>
+                <url>https://arcobaleno-dent.ru/services/orthodontics/</url>
+            </set>
+			      <set id="hirurg">
+                <name>Хирург-имплантолог</name>
+                <url>https://arcobaleno-dent.ru/services/implantatsiya-zubov-v-krasnogorske/</url>
+            </set>
+			      <set id="detskiy">
+                <name>Стоматолог (детский)</name>
+                <url>https://arcobaleno-dent.ru/services/detskaya-stomatologiya/</url>
+            </set>
+			
+        </sets>
+        <offers>
+            <!--
+                Оффер для врача - это связка "Врач"-"Клиника"-"Тип приема".
+                При наличии у врача нескольких офферов нужно предоставить каждый из них отдельно.
+                В таком случае URL разных офферов одного врача должны различаться незначащим cgi-параметром ?offer-id=...
+
+            -->
+            <!--group_id - уникальный идентификтаор врача. нужен при наличии разных URL у одного человека. Целое число, не более 9 знаков-->
+            <offer id="vrach111" group_id="11111"> 
+                <name>Ткачева Екатерина Сергеевна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://arcobaleno-dent.ru/vrachi/tkacheva-ekaterina-sergeevna/</url><!--URL карточки врача. -->
+                <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>terapevt</set-ids> <!--специальности через запятую-->
+                <picture>https://arcobaleno-dent.ru/wp-content/uploads/2023/10/123-768x1024.jpg</picture>
+                <description>Специализации: Профессиональная гигиена полости рта, лечение кариеса и его осложнений, лечение пульпита, лечение периодонтита, отбеливание, лечение «без сверления», художественная реставрация, реминерализация, вкладка «Emax», удаление зубов, лечение каналов (специализация Эндодонтия), лечение «под увеличением»</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Ткачева</param>
+                <param name="Имя">Екатерина</param>
+                <param name="Отчество">Сергеевна</param>
+                <param name="Годы опыта">11</param>
+                <param name="Начало карьеры">2012-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Красногорск</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">true</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://arcobaleno-dent.ru/vrachi/tkacheva-ekaterina-sergeevna/</param>
+                <param name="Город клиники">г. Красногорск</param>
+                <param name="Адрес клиники">Московская обл., г. Красногорск, б-р Космонавтов, д.1</param>
+                <param name="Название клиники">Семейная стоматология «Аркобалено»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
+                <param name="Образование - 1" unit="Организация">ГБО УВПО «Московский государственный медико-стоматологический университет имени А.И. Евдокимова» Министерства здравоохранения РФ</param>
+                <param name="Образование - 1" unit="Дата">2014</param>
+                <param name="Образование - 1" unit="Название">Базовое образование</param>
+                <param name="Образование - 1" unit="Специальность">Стоматология, врач</param>
+                <param name="Образование - 2" unit="ФГБО УДПО «Российская медицинская академия непрерывного профессионального образования» Министерства здравоохранения РФ</param>
+                <param name="Образование - 2" unit="Дата">2023</param>
+                <param name="Образование - 2" unit="Название">Аккредитация специалиста</param>
+                <param name="Образование - 2" unit="Специальность">Стоматология терапевтическая</param>
+            </offer>
+
+            
+          
+			
+        </offers>
+    </shop>
+</yml_catalog>
