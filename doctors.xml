@@ -5,7 +5,7 @@
         <company>ООО «Аркобалено»</company>
         <url>https://arcobaleno-dent.ru/</url>
         <email>info@arcobaleno-dent.ru</email>
-        <picture>https://arcobaleno-dent.ru/images/logo.png</picture>
+        <picture>https://rawcdn.githack.com/agulyaykin/arcobaleno/aabd1657e1dc9b3f8126c0b2b969578b7ac1aa87/w_xEh4M9EnM.jpg</picture>
         <description>Каталог врачей</description>
         <currencies>
           <currency id="RUR" rate="1" />
