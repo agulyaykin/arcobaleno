@@ -24,11 +24,11 @@
                 <url>https://arcobaleno-dent.ru/services/orthodontics/</url>
             </set>
 			      <set id="hirurg">
-                <name>Хирург-имплантолог</name>
+                <name>Хирург</name>
                 <url>https://arcobaleno-dent.ru/services/implantatsiya-zubov-v-krasnogorske/</url>
             </set>
 			      <set id="detskiy">
-                <name>Стоматолог (детский)</name>
+                <name>Стоматолог</name>
                 <url>https://arcobaleno-dent.ru/services/detskaya-stomatologiya/</url>
             </set>
 			
