@@ -31,6 +31,11 @@
                 <name>Стоматолог</name>
                 <url>https://arcobaleno-dent.ru/services/detskaya-stomatologiya/</url>
             </set>
+
+			<set id="ortodont">
+                <name>Стоматолог-ортодонт</name>
+                <url>https://arcobaleno-dent.ru/services/orthodontics/</url>
+            </set>
 			
         </sets>
         <offers>
@@ -84,7 +89,7 @@
                 <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>ortoped</set-ids> <!--специальности через запятую-->
+                <set-ids>ortodont</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2022/12/nikulina-766x1024.jpeg</picture>
                 <description>Специализации: лечение и профилактика растущих и взрослых пациентов с зубочелюстными аномалиями с применением съемной ("пластинки", трейнеры, функциональные аппараты) и несъемной аппаратуры - традиционными (лигируемыми) брекет-системами, лечение зубочелюстных деформаций при помощи силиконовых капп, подготовка брекет-системы к непрямой фиксации, непрямая фиксация.</description>
                 <categoryId>1</categoryId>
