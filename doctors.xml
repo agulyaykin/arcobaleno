@@ -327,7 +327,7 @@
                 <name>Богданова Альбина Фаридовна</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://arcobaleno-dent.ru/vrachi/bogdanova-albina-faridovna/</url><!--URL карточки врача. -->
-                <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
                 <set-ids>ortodont</set-ids> <!--специальности через запятую-->
