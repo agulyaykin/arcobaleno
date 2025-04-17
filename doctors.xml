@@ -36,6 +36,15 @@
                 <name>Стоматолог-ортодонт</name>
                 <url>https://arcobaleno-dent.ru/services/orthodontics/</url>
             </set>
+		<set id="implantolog">
+                <name>Имплантолог</name>
+                <url>https://arcobaleno-dent.ru/services/implantatsiya-zubov-v-krasnogorske/</url>
+            </set>
+
+		<set id="gnatolog">
+                <name>Гнатолог</name>
+                <url>https://arcobaleno-dent.ru/services/orthodontics/</url>
+            </set>
 			
         </sets>
         <offers>
@@ -125,7 +134,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>terapevt</set-ids> <!--специальности через запятую-->
+                <set-ids>hirurg, implantolog, terapevt</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2023/09/1-768x1024.jpg</picture>
                 <description>Специализации: Профессиональная гигиена полости рта, Лечение кариеса и его осложнений, Лечение пульпита, Лечение периодонтита, Отбеливание, Лечение «без сверления», Художественная реставрация, Реминерализация, Вкладка «Emax», Удаление Зубов, Лечение каналов (специализация Эндодонтия)</description>
                 <categoryId>1</categoryId>
@@ -133,7 +142,7 @@
                 <param name="Фамилия">Калагов</param>
                 <param name="Имя">Хетаг</param>
                 <param name="Отчество">Русланович</param>
-                <param name="Годы опыта">5</param>
+                <param name="Годы опыта">7</param>
                 <param name="Начало карьеры">2018-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
                 <param name="Город">г. Красногорск</param>
                 <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
@@ -193,7 +202,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>ortoped</set-ids> <!--специальности через запятую-->
+                <set-ids>ortoped, gnatolog</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2024/09/image0-751x1024.jpeg</picture>
                 <description>Специализации: Профессиональная гигиена полости рта, Стоматология терапевтическая, Лечение кариеса и его осложнений, Эстетическая реставрация, Эндодонтическое лечение, Микропротезирование, Владение современными технологиями протезирования, Съемное и несъемное протезирование, Работа с с заболеваниями жевательных мышц и височно - нижнечелюстных суставов, Протезирование на имплантах</description>
 		<categoryId>1</categoryId>
@@ -233,7 +242,7 @@
                 <param name="Фамилия">Богданова</param>
                 <param name="Имя">Альбина</param>
                 <param name="Отчество">Фаридовна</param>
-                <param name="Годы опыта">3</param>
+                <param name="Годы опыта">5</param>
                 <param name="Начало карьеры">2022-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
                 <param name="Город">г. Красногорск</param>
                 <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
