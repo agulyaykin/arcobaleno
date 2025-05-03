@@ -16,7 +16,7 @@
 
         <sets>
             <set id="terapevt">
-                <name>Стоматолог-терапевт</name>
+                <name>Врач-стоматолог</name>
                 <url>https://arcobaleno-dent.ru/services/diagnostika/</url>
             </set>
 			      <set id="ortoped">
@@ -28,7 +28,7 @@
                 <url>https://arcobaleno-dent.ru/services/implantatsiya-zubov-v-krasnogorske/</url>
             </set>
 			      <set id="detskiy">
-                <name>Стоматолог</name>
+                <name>Детский стоматолог</name>
                 <url>https://arcobaleno-dent.ru/services/detskaya-stomatologiya/</url>
             </set>
 
@@ -49,6 +49,26 @@
 		<set id="parodontolog">
                 <name>Пародонтолог</name>
                 <url>https://arcobaleno-dent.ru/services/lechenie-desen/</url>
+            </set>
+
+		<set id="estetika">
+                <name>Cпециалист по эстетическому восстановлению зубов</name>
+                <url>https://arcobaleno-dent.ru/services/ultrazvukovaya-chistka-zubov/</url>
+            </set>
+
+		<set id="mikroskopist">
+                <name>Микроскопист</name>
+                <url>https://arcobaleno-dent.ru/services/restavratsiya-zubov/</url>
+            </set>
+
+		<set id="endodontist">
+                <name>Эндодонтист</name>
+                <url>https://arcobaleno-dent.ru/services/diagnostika/</url>
+            </set>
+
+		<set id="lechenie-kariesa">
+                <name>Специалист по лечению сложных видов кариеса</name>
+                <url>https://arcobaleno-dent.ru/services/lechenie-zubov/</url>
             </set>
 			
         </sets>
@@ -139,7 +159,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>hirurg, implantolog, terapevt</set-ids> <!--специальности через запятую-->
+                <set-ids>terapevt, hirurg, parodontolog, endodontist, estetika</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2023/09/1-768x1024.jpg</picture>
                 <description>Специализации: Профессиональная гигиена полости рта, Лечение кариеса и его осложнений, Лечение пульпита, Лечение периодонтита, Отбеливание, Лечение «без сверления», Художественная реставрация, Реминерализация, Вкладка «Emax», Удаление Зубов, Лечение каналов (специализация Эндодонтия)</description>
                 <categoryId>1</categoryId>
@@ -303,7 +323,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>terapevt</set-ids> <!--специальности через запятую-->
+                <set-ids>terapevt, mikroskopist, endodontist, lechenie-kariesa</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2025/04/image1-763x1024.jpeg</picture>
                 <description>Полный объем эндодонтического лечения с использованием оперативного микроскопа, Профессиональная гигиена полости рта, Лечение кариеса и его осложнений, Лечение пульпита, Лечение периодонтита, Отбеливание, Лечение «без сверления», Художественная реставрация, Реминерализация, Вкладка «Emax», Удаление Зубов, Лечение каналов (специализация Эндодонтия)</description>
 		<categoryId>1</categoryId>
@@ -335,7 +355,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>terapevt</set-ids> <!--специальности через запятую-->
+                <set-ids>terapevt, estetika</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2025/04/image0-1-575x1024.jpeg</picture>
                 <description>Профессиональная гигиена полости рта, Лечение кариеса и его осложнений, Лечение пульпита, Лечение периодонтита, Отбеливание, Лечение «без сверления», Художественная реставрация, Реминерализация, Вкладка «Emax», Удаление Зубов, Лечение каналов (специализация Эндодонтия)</description>
 		<categoryId>1</categoryId>
