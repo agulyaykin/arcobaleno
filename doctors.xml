@@ -356,7 +356,7 @@
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
                 <set-ids>terapevt, estetika</set-ids> <!--специальности через запятую-->
-                <picture>https://arcobaleno-dent.ru/wp-content/uploads/2025/04/image0-1-575x1024.jpeg</picture>
+                <picture>https://arcobaleno-dent.ru/wp-content/uploads/2025/04/image1-1-768x1024.jpeg</picture>
                 <description>Профессиональная гигиена полости рта, Лечение кариеса и его осложнений, Лечение пульпита, Лечение периодонтита, Отбеливание, Лечение «без сверления», Художественная реставрация, Реминерализация, Вкладка «Emax», Удаление Зубов, Лечение каналов (специализация Эндодонтия)</description>
 		<categoryId>1</categoryId>
                 <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
