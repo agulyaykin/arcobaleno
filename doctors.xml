@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <yml_catalog date="2023-11-13 12:10">
     <shop>
-        <name>Стоматология «Аркобалено»</name>
+        <name>Стоматология Аркобалено</name>
         <company>ООО «Аркобалено»</company>
         <url>https://arcobaleno-dent.ru/</url>
         <email>info@arcobaleno-dent.ru</email>
@@ -15,64 +15,44 @@
         </categories>
 
         <sets>
-            <set id="terapevt">
-                <name>Врач-стоматолог</name>
+            	<set id="terapevt">
+                <name>стоматолог-терапевт</name>
                 <url>https://arcobaleno-dent.ru/services/diagnostika/</url>
             </set>
-			      <set id="ortoped">
-                <name>Стоматолог-ортопед</name>
+	
+		<set id="ortoped">
+                <name>стоматолог-ортопед</name>
                 <url>https://arcobaleno-dent.ru/services/orthodontics/</url>
-            </set>
-			      <set id="hirurg">
-                <name>Хирург</name>
-                <url>https://arcobaleno-dent.ru/services/implantatsiya-zubov-v-krasnogorske/</url>
-            </set>
-			      <set id="detskiy">
-                <name>Детский стоматолог</name>
-                <url>https://arcobaleno-dent.ru/services/detskaya-stomatologiya/</url>
             </set>
 
-			<set id="ortodont">
-                <name>Стоматолог-ортодонт</name>
+		<set id="stomatolog">
+                <name>стоматолог</name>
                 <url>https://arcobaleno-dent.ru/services/orthodontics/</url>
             </set>
+		
+		<set id="hirurg">
+                <name>хирург</name>
+                <url>https://arcobaleno-dent.ru/services/implantatsiya-zubov-v-krasnogorske/</url>
+            </set>
+
 		<set id="implantolog">
-                <name>Имплантолог</name>
+                <name>стоматолог-имплантолог</name>
                 <url>https://arcobaleno-dent.ru/services/implantatsiya-zubov-v-krasnogorske/</url>
             </set>
 
 		<set id="gnatolog">
-                <name>Гнатолог</name>
+                <name>гнатолог</name>
                 <url>https://arcobaleno-dent.ru/services/orthodontics/</url>
             </set>
 
-		<set id="parodontolog">
-                <name>Пародонтолог</name>
-                <url>https://arcobaleno-dent.ru/services/lechenie-desen/</url>
-            </set>
-
-		<set id="estetika">
-                <name>Cпециалист по эстетическому восстановлению зубов</name>
-                <url>https://arcobaleno-dent.ru/services/ultrazvukovaya-chistka-zubov/</url>
-            </set>
-
-		<set id="mikroskopist">
-                <name>Микроскопист</name>
-                <url>https://arcobaleno-dent.ru/services/restavratsiya-zubov/</url>
-            </set>
-
 		<set id="endodontist">
-                <name>Эндодонтист</name>
+                <name>стоматолог-эндодонт</name>
                 <url>https://arcobaleno-dent.ru/services/diagnostika/</url>
             </set>
-
-		<set id="lechenie-kariesa">
-                <name>Специалист по лечению сложных видов кариеса</name>
-                <url>https://arcobaleno-dent.ru/services/lechenie-zubov/</url>
-            </set>
-			
+		
         </sets>
-        <offers>
+       
+	    <offers>
             <!--
                 Оффер для врача - это связка "Врач"-"Клиника"-"Тип приема".
                 При наличии у врача нескольких офферов нужно предоставить каждый из них отдельно.
@@ -80,7 +60,8 @@
 
             -->
             <!--group_id - уникальный идентификтаор врача. нужен при наличии разных URL у одного человека. Целое число, не более 9 знаков-->
-            <offer id="vrach112" group_id="11112"> 
+            
+		<offer id="vrach112" group_id="11112"> 
                 <name>Абдулатипов Магомед Абдулатипович</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://arcobaleno-dent.ru/vrachi/abdulatipov-magomed-abdulatipovich/</url><!--URL карточки врача. -->
@@ -103,7 +84,7 @@
                 <param name="Ссылка на профиль врача">https://arcobaleno-dent.ru/vrachi/abdulatipov-magomed-abdulatipovich/</param>
                 <param name="Город клиники">г. Красногорск</param>
                 <param name="Адрес клиники">б-р Космонавтов, д.1</param>
-                <param name="Название клиники">Стоматология «Аркобалено»</param>
+                <param name="Название клиники">Стоматология Аркобалено</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
                 <param name="Образование - 1" unit="Организация">ФГБОУ ВО «Московский государственный медико-стоматологический университет имени А.И.Евдокимова»</param>
@@ -123,7 +104,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>hirurg,implantolog,parodontolog</set-ids> <!--специальности через запятую-->
+                <set-ids>hirurg,implantolog</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2022/12/medzinovskij-683x1024.jpeg</picture>
                 <description>Специализации: диагностика и лечение заболеваний пародонта (болезни дёсен), восстановление полноценной эстетики и жевательной функции с помощью хирургической операции - дентальная имплантация, предотвращение адентии (убыль) костной ткани, удаление зубов любой сложности, пластика уздечки, зубосохраняющие операции, одномоментная дентальная имплантация</description>
                 <categoryId>1</categoryId>
@@ -139,7 +120,7 @@
                 <param name="Ссылка на профиль врача">https://arcobaleno-dent.ru/vrachi/medzinovskiy-andrey-yurevich/</param>
                 <param name="Город клиники">г. Красногорск</param>
                 <param name="Адрес клиники">б-р Космонавтов, д.1</param>
-                <param name="Название клиники">Стоматология «Аркобалено»</param>
+                <param name="Название клиники">Стоматология Аркобалено</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
                 <param name="Образование - 1" unit="Организация">ГБО УВПО Первый Московский Государственный Медицинский Университет имени И.М.Сеченова Министерства здравоохранения РФ</param>
@@ -159,7 +140,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>terapevt, hirurg, parodontolog, endodontist, estetika</set-ids> <!--специальности через запятую-->
+                <set-ids>terapevt, hirurg</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2023/09/1-768x1024.jpg</picture>
                 <description>Специализации: Профессиональная гигиена полости рта, Лечение кариеса и его осложнений, Лечение пульпита, Лечение периодонтита, Отбеливание, Лечение «без сверления», Художественная реставрация, Реминерализация, Вкладка «Emax», Удаление Зубов, Лечение каналов (специализация Эндодонтия)</description>
                 <categoryId>1</categoryId>
@@ -175,7 +156,7 @@
                 <param name="Ссылка на профиль врача">https://arcobaleno-dent.ru/vrachi/kalagov-hetag-ruslanovich/</param>
                 <param name="Город клиники">г. Красногорск</param>
                 <param name="Адрес клиники">б-р Космонавтов, д.1</param>
-                <param name="Название клиники">Стоматология «Аркобалено»</param>
+                <param name="Название клиники">Стоматология Аркобалено</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
                 <param name="Образование - 1" unit="Организация">ФГБО УВО «Московский государственный медико- стоматологический университет имени А.И. Евдокимова»</param>
@@ -195,7 +176,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>detskiy</set-ids> <!--специальности через запятую-->
+                <set-ids>stomatolog</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2023/12/sofija-1-1024x576.png</picture>
                 <description>Специализации: Прием детей от 0 до 18 лет, Профессиональная гигиена полости рта ребенка и взрослых, Профилактика кариеса, Лечение «без сверления», Лечение кариозный поражений временных и постоянных несформированных зубов, Лечение пульпитов и периодонтитов временных и постоянных зубов у детей-фторирование зубов, Художественная реставрация зубов, Адаптация детей к стоматологическому лечению.</description>
                 <categoryId>1</categoryId>
@@ -211,7 +192,7 @@
                 <param name="Ссылка на профиль врача">https://arcobaleno-dent.ru/vrachi/zemskaja-sofija-sergeevna/</param>
                 <param name="Город клиники">г. Красногорск</param>
                 <param name="Адрес клиники">б-р Космонавтов, д.1</param>
-                <param name="Название клиники">Стоматология «Аркобалено»</param>
+                <param name="Название клиники">Стоматология Аркобалено</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
                 <param name="Образование - 1" unit="Организация">ФГБОУ ВО «Московский государственный медико-стоматологический университет имени А.И.Евдокимова»</param>
@@ -243,7 +224,7 @@
                 <param name="Ссылка на профиль врача">https://arcobaleno-dent.ru/vrachi/asaturjan-artur-levonovich/</param>
                 <param name="Город клиники">г. Красногорск</param>
                 <param name="Адрес клиники">б-р Космонавтов, д.1</param>
-                <param name="Название клиники">Стоматология «Аркобалено»</param>
+                <param name="Название клиники">Стоматология Аркобалено</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
                 <param name="Образование - 1" unit="Организация">ФГБО УВО «Саратовский государственный медицинский университет имени В.И. Разумовского» МЗ РФ г. Саратов</param>
@@ -259,7 +240,7 @@
                 <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>ortodont</set-ids> <!--специальности через запятую-->
+                <set-ids>stomatolog</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2024/12/image2-889x1024.jpeg</picture>
                 <description>Специализации: Лечение и профилактика растущих и взрослых пациентов с зубочелюстными аномалиями с применением съемной ("пластинки", трейнеры, функциональные аппараты) и несъемной аппаратуры - традиционными (лигируемыми) брекет-системами, Лечение зубочелюстных деформаций при помощи силиконовых капп, Подготовка брекет-системы к непрямой фиксации, непрямая фиксация.</description>
 		<categoryId>1</categoryId>
@@ -275,7 +256,7 @@
                 <param name="Ссылка на профиль врача">https://arcobaleno-dent.ru/vrachi/bogdanova-albina-faridovna/</param>
                 <param name="Город клиники">г. Красногорск</param>
                 <param name="Адрес клиники">б-р Космонавтов, д.1</param>
-                <param name="Название клиники">Стоматология «Аркобалено»</param>
+                <param name="Название клиники">Стоматология Аркобалено</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
                 <param name="Образование - 1" unit="Организация">ФГБО УВО «Пензенский Государственный университет» г. Пенза</param>
@@ -291,7 +272,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>hirurg,implantolog,parodontolog</set-ids> <!--специальности через запятую-->
+                <set-ids>hirurg,implantolog</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2025/04/image0-827x1024.jpeg</picture>
                 <description>Профессиональная гигиена полости рта, Лечение кариеса и его осложнений, Лечение пульпита, Лечение периодонтита, Отбеливание, Лечение «без сверления», Художественная реставрация, Реминерализация</description>
 		<categoryId>1</categoryId>
@@ -307,7 +288,7 @@
                 <param name="Ссылка на профиль врача">https://arcobaleno-dent.ru/vrachi/hubiev-shamil-magometovich/</param>
                 <param name="Город клиники">г. Красногорск</param>
                 <param name="Адрес клиники">б-р Космонавтов, д.1</param>
-                <param name="Название клиники">Стоматология «Аркобалено»</param>
+                <param name="Название клиники">Стоматология Аркобалено</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
                 <param name="Образование - 1" unit="Организация">ФГБОУ ВО «Ставропольский государственный медицинский университет» Министерства здравоохранения РФ г.Ставрополь</param>
@@ -323,7 +304,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>terapevt, mikroskopist, endodontist, lechenie-kariesa</set-ids> <!--специальности через запятую-->
+                <set-ids>terapevt,endodontist</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2025/04/image1-763x1024.jpeg</picture>
                 <description>Полный объем эндодонтического лечения с использованием оперативного микроскопа, Профессиональная гигиена полости рта, Лечение кариеса и его осложнений, Лечение пульпита, Лечение периодонтита, Отбеливание, Лечение «без сверления», Художественная реставрация, Реминерализация, Вкладка «Emax», Удаление Зубов, Лечение каналов (специализация Эндодонтия)</description>
 		<categoryId>1</categoryId>
@@ -339,7 +320,7 @@
                 <param name="Ссылка на профиль врача">https://arcobaleno-dent.ru/vrachi/kurbanov-dzhamal-muradovich/</param>
                 <param name="Город клиники">г. Красногорск</param>
                 <param name="Адрес клиники">б-р Космонавтов, д.1</param>
-                <param name="Название клиники">Стоматология «Аркобалено»</param>
+                <param name="Название клиники">Стоматология Аркобалено</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
                 <param name="Образование - 1" unit="Организация">ФГБО УВО «Волгоградский государственный медицинский университет Министерства здравоохранения РФ» г.Волгоград</param>
@@ -355,7 +336,7 @@
                 <price from="true">800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>terapevt, estetika</set-ids> <!--специальности через запятую-->
+                <set-ids>terapevt</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2025/04/image1-1-768x1024.jpeg</picture>
                 <description>Профессиональная гигиена полости рта, Лечение кариеса и его осложнений, Лечение пульпита, Лечение периодонтита, Отбеливание, Лечение «без сверления», Художественная реставрация, Реминерализация, Вкладка «Emax», Удаление Зубов, Лечение каналов (специализация Эндодонтия)</description>
 		<categoryId>1</categoryId>
@@ -371,7 +352,7 @@
                 <param name="Ссылка на профиль врача">https://arcobaleno-dent.ru/vrachi/alieva-alina-magomedgabibovna/</param>
                 <param name="Город клиники">г. Красногорск</param>
                 <param name="Адрес клиники">б-р Космонавтов, д.1</param>
-                <param name="Название клиники">Стоматология «Аркобалено»</param>
+                <param name="Название клиники">Стоматология Аркобалено</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
                 <param name="Образование - 1" unit="Организация">ФГБО УВО «Московский государственный медико - стоматологический университет имени А.И. Евдокимова» Министерства здравоохранения РФ г.Москва</param>
