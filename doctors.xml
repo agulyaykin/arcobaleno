@@ -105,7 +105,7 @@
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
                 <set-ids>hirurg,implantolog</set-ids> <!--специальности через запятую-->
-                <picture>https://arcobaleno-dent.ru/wp-content/uploads/2022/12/medzinovskij-683x1024.jpeg</picture>
+                <picture>https://rawcdn.githack.com/agulyaykin/arcobaleno/69738e96c265a71f2a99e6b2195e7849a63513cd/IMAGE%202026-01-31%2015:52:43.jpg</picture>
                 <description>Специализации: диагностика и лечение заболеваний пародонта (болезни дёсен), восстановление полноценной эстетики и жевательной функции с помощью хирургической операции - дентальная имплантация, предотвращение адентии (убыль) костной ткани, удаление зубов любой сложности, пластика уздечки, зубосохраняющие операции, одномоментная дентальная имплантация</description>
                 <categoryId>1</categoryId>
                 <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
