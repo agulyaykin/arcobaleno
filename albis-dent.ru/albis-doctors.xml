@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<yml_catalog date="2026-02-28 12:45">
+  <shop>
+    <name>Стоматология Албис</name>
+    <company>ООО Албис</company>
+    <url>http://www.albis-dent.ru/</url>
+    <email>info@albis.ru</email>
+    <picture>http://www.albis-dent.ru/img/logo-albis.png</picture>
+    <description>Каталог врачей</description>
+
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+
+    <categories>
+      <category id="1">Врач</category>
+    </categories>
+
+    <sets>
+      <set id="terapevt"><name>стоматолог-терапевт</name> <url>http://www.albis-dent.ru/</url></set>
+      <set id="ortoped"><name>стоматолог-ортопед</name> <url>http://www.albis-dent.ru/</url></set>
+      <set id="stomatolog"><name>стоматолог</name> <url>http://www.albis-dent.ru/</url></set>
+      <set id="hirurg"><name>хирург</name> <url>http://www.albis-dent.ru/</url></set>
+      <set id="implantolog"><name>стоматолог-имплантолог</name> <url>http://www.albis-dent.ru/</url></set>
+      <set id="gnatolog"><name>гнатолог</name> <url>http://www.albis-dent.ru/</url></set>
+      <set id="endodontist"><name>стоматолог-эндодонт</name> <url>http://www.albis-dent.ru/</url></set>
+    </sets>
+
+    <offers>
+
+      <offer id="albis-112" group_id="21112">
+        <name>Абдулатипов Магомед Абдулатипович</name>
+        <url>http://www.albis-dent.ru/</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>ortoped</set-ids>
+        <picture>https://arcobaleno-dent.ru/wp-content/uploads/2022/12/image0-4.jpeg</picture>
+        <description>Врач стоматолог-ортопед</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Абдулатипов</param>
+        <param name="Имя">Магомед</param>
+        <param name="Отчество">Абдулатипович</param>
+        <param name="Годы опыта">6</param>
+        <param name="Начало карьеры">2017-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+        <param name="Город">г. Москва</param>
+        <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+        <param name="Детский врач">true</param> <!--Принимает детей, до 18 лет-->
+        <param name="Ссылка на профиль врача">http://www.albis-dent.ru/</param>
+        <param name="Город клиники">г. Москва</param>
+        <param name="Название клиники">Стоматология Албис</param>
+        <param name="Адрес клиники">Волоколамское ш., д.71 к.2</param>
+        <param name="Телефон для записи">+7(495) 535 86 10</param>
+        <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+        <param name="Образование - 1" unit="Организация">ФГБОУ ВО «Московский государственный медико-стоматологический университет имени А.И.Евдокимова»</param>
+        <param name="Образование - 1" unit="Дата">2018</param>
+        <param name="Образование - 1" unit="Название">Базовое образование</param>
+        <param name="Образование - 1" unit="Специализация">Стоматология, врач</param>
+        <param name="Образование - 2" unit="Организация">ГБУЗ Моск. обл. «Московский областной научно — исследовательский клинический институт им. М.Ф. Владимирского»</param>
+        <param name="Образование - 2" unit="Дата">2020</param>
+        <param name="Образование - 2" unit="Название">Диплом об окончании ординатуры</param>
+        <param name="Образование - 2" unit="Специализация">Врач стоматолог-ортопед</param>
+      </offer>
+
+      <offer id="albis-114" group_id="21114">
+        <name>Медзиновский Андрей Юрьевич</name>
+        <url>http://www.albis-dent.ru/</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>hirurg,implantolog</set-ids>
+        <picture>https://arcobaleno-dent.ru/wp-content/uploads/2022/12/image0-1-e1770115465338-785x1024.jpeg</picture>
+        <description>Хирург-имплантолог</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Медзиновский</param>
+        <param name="Имя">Андрей</param>
+        <param name="Отчество">Юрьевич</param>
+        <param name="Годы опыта">10</param>
+        <param name="Начало карьеры">2016-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+        <param name="Город">г. Москва</param>
+        <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+        <param name="Детский врач">true</param> <!--Принимает детей, до 18 лет-->
+        <param name="Ссылка на профиль врача">http://www.albis-dent.ru/</param>
+        <param name="Город клиники">г. Москва</param>
+        <param name="Название клиники">Стоматология Албис</param>
+        <param name="Адрес клиники">Волоколамское ш., д.71 к.2</param>
+        <param name="Телефон для записи">+7(495) 535 86 10</param>
+        <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+        <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
+        <param name="Образование - 1" unit="Организация">ГБО УВПО Первый Московский Государственный Медицинский Университет имени И.М.Сеченова Министерства здравоохранения РФ</param>
+        <param name="Образование - 1" unit="Дата">2016</param>
+        <param name="Образование - 1" unit="Название">Базовое образование</param>
+        <param name="Образование - 1" unit="Специализация">Стоматология, врач</param>
+        <param name="Образование - 2" unit="Организация">ФГБУ ГНЦ РФ ФМБЦ имени А.И.Бурназяна</param>
+        <param name="Образование - 2" unit="Дата">2018</param>
+        <param name="Образование - 2" unit="Название">Аккредитация специалиста</param>
+        <param name="Образование - 2" unit="Специализация">Врач стоматолог-хирург</param>
+      </offer>
+
+      <offer id="albis-119" group_id="21119">
+        <name>Земская София Сергеевна</name>
+        <url>http://www.albis-dent.ru/</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>stomatolog</set-ids>
+        <picture>https://arcobaleno-dent.ru/wp-content/uploads/2023/12/image0-2-782x1024.jpeg</picture>
+        <description>Детский стоматолог</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Земская</param>
+        <param name="Имя">София</param>
+        <param name="Отчество">Сергеевна</param>
+        <param name="Годы опыта">6</param>
+        <param name="Начало карьеры">2020-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+        <param name="Город">г. Москва</param>
+        <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+        <param name="Детский врач">true</param> <!--Принимает детей, до 18 лет-->
+        <param name="Ссылка на профиль врача">http://www.albis-dent.ru/</param>
+        <param name="Город клиники">г. Москва</param>
+        <param name="Название клиники">Стоматология Албис</param>
+        <param name="Адрес клиники">Волоколамское ш., д.71 к.2</param>
+        <param name="Телефон для записи">+7(495) 535 86 10</param>
+        <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+        <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
+        <param name="Образование - 1" unit="Организация">ФГБОУ ВО «Московский государственный медико-стоматологический университет имени А.И.Евдокимова»</param>
+        <param name="Образование - 1" unit="Дата">2020</param>
+        <param name="Образование - 1" unit="Название">Базовое образование</param>
+        <param name="Образование - 1" unit="Специализация">Стоматология, врач</param>    
+      </offer>
+
+      <offer id="albis-123" group_id="21123">
+        <name>Богданова Альбина Фаридовна</name>
+        <url>http://www.albis-dent.ru/</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>stomatolog</set-ids>
+        <picture>https://arcobaleno-dent.ru/wp-content/uploads/2024/12/image02-877x1024.jpeg</picture>
+        <description>Врач стоматолог-ортодонт</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Богданова</param>
+        <param name="Имя">Альбина</param>
+        <param name="Отчество">Фаридовна</param>
+        <param name="Годы опыта">5</param>
+        <param name="Начало карьеры">2022-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+        <param name="Город">г. Москва</param>
+        <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+        <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+        <param name="Ссылка на профиль врача">http://www.albis-dent.ru/</param>
+        <param name="Город клиники">г. Москва</param>
+        <param name="Название клиники">Стоматология Албис</param>
+        <param name="Адрес клиники">Волоколамское ш., д.71 к.2</param>
+        <param name="Телефон для записи">+7(495) 535 86 10</param>
+        <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+        <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
+        <param name="Образование - 1" unit="Организация">ФГБО УВО «Пензенский Государственный университет» г. Пенза</param>
+        <param name="Образование - 1" unit="Дата">2022</param>
+        <param name="Образование - 1" unit="Название">Базовое образование</param>
+        <param name="Образование - 1" unit="Специализация">Стоматология, врач</param>
+      </offer>
+
+      <offer id="albis-125" group_id="21125">
+        <name>Курбанов Джамал Мурадович</name>
+        <url>http://www.albis-dent.ru/</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>terapevt,endodontist</set-ids>
+        <picture>https://arcobaleno-dent.ru/wp-content/uploads/2025/04/image0-6-868x1024.jpeg</picture>
+        <description>Врач стоматолог-эндодонтист</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Курбанов</param>
+        <param name="Имя">Джамал</param>
+        <param name="Отчество">Мурадович</param>
+        <param name="Годы опыта">5</param>
+        <param name="Начало карьеры">2020-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+        <param name="Город">г. Москва</param>
+        <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+        <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+        <param name="Ссылка на профиль врача">http://www.albis-dent.ru/</param>
+        <param name="Город клиники">г. Москва</param>
+        <param name="Название клиники">Стоматология Албис</param>
+        <param name="Адрес клиники">Волоколамское ш., д.71 к.2</param>
+        <param name="Телефон для записи">+7(495) 535 86 10</param>
+        <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+        <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
+        <param name="Образование - 1" unit="Организация">ФГБО УВО «Волгоградский государственный медицинский университет Министерства здравоохранения РФ» г.Волгоград</param>
+        <param name="Образование - 1" unit="Дата">2023</param>
+        <param name="Образование - 1" unit="Название">Базовое образование</param>
+        <param name="Образование - 1" unit="Специализация">Стоматология, врач</param>
+      </offer>
+
+      <offer id="albis-126" group_id="21126">
+        <name>Абакаров Изамутдин Ирасханович</name>
+        <url>http://www.albis-dent.ru/</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>hirurg,implantolog</set-ids>
+        <picture>https://arcobaleno-dent.ru/wp-content/uploads/2026/02/image0-768x1024.jpeg</picture>
+        <description>Хирург-имплантолог</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Абакаров</param>
+        <param name="Имя">Изамутдин</param>
+        <param name="Отчество">Ирасханович</param>
+        <param name="Годы опыта">5</param>
+        <param name="Начало карьеры">2021-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+        <param name="Город">г. Москва</param>
+        <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+        <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+        <param name="Ссылка на профиль врача">http://www.albis-dent.ru/</param>
+        <param name="Город клиники">г. Москва</param>
+        <param name="Название клиники">Стоматология Албис</param>
+        <param name="Адрес клиники">Волоколамское ш., д.71 к.2</param>
+        <param name="Телефон для записи">+7(495) 535 86 10</param>
+        <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+        <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
+        <param name="Образование - 1" unit="Организация">ФГБО УВО «Дагестанский государственный медицинский университет» Министерства здравоохранения РФ г.Махачкала</param>
+        <param name="Образование - 1" unit="Дата">2021</param>
+        <param name="Образование - 1" unit="Название">Базовое образование</param>
+        <param name="Образование - 1" unit="Специализация">Стоматология, врач</param>
+      </offer>
+
+      <offer id="albis-201" group_id="21201">
+        <name>Саркисян Лианна Арменовна</name>
+        <url>http://www.albis-dent.ru/</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <picture>http://www.albis-dent.ru/img/doctors/sarkisyan-lianna.jpeg</picture>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>terapevt,endodontist</set-ids>
+        <description>Врач стоматолог терапевт, микроскопист, специалист по эстетической реставрации зубов, эндодонтист, специалист по отбеливанию зубов. </description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Саркисян</param>
+        <param name="Имя">Лианна</param>
+        <param name="Отчество">Арменовна</param>
+        <param name="Годы опыта">7</param>
+        <param name="Начало карьеры">2019-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+        <param name="Город">г. Москва</param>
+        <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+        <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+        <param name="Ссылка на профиль врача">http://www.albis-dent.ru/</param>
+        <param name="Город клиники">г. Москва</param>
+        <param name="Название клиники">Стоматология Албис</param>
+        <param name="Адрес клиники">Волоколамское ш., д.71 к.2</param>
+        <param name="Телефон для записи">+7(495) 535 86 10</param>
+        <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+        <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
+      </offer>
+
+      <offer id="albis-202" group_id="21202">
+        <name>Сысоева Фариза Кадиржановна</name>
+        <url>http://www.albis-dent.ru/</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <picture>http://www.albis-dent.ru/img/doctors/sysoeva-fariza.jpeg</picture>
+        <sales_notes>Первичный прием</sales_notes>
+        <set-ids>terapevt,endodontist</set-ids>
+        <description>Врач стоматолог терапевт, микроскопист, специалист по эстетической реставрации зубов, эндодонтист, специалист по отбеливанию зубов.</description>
+        <categoryId>1</categoryId>
+        <param name="Фамилия">Сысоева</param>
+        <param name="Имя">Фариза</param>
+        <param name="Отчество">Кадиржановна</param>
+        <param name="Годы опыта">10</param>
+        <param name="Начало карьеры">2016-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+        <param name="Город">г. Москва</param>
+        <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+        <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+        <param name="Ссылка на профиль врача">http://www.albis-dent.ru/</param>
+        <param name="Город клиники">г. Москва</param>
+        <param name="Название клиники">Стоматология Албис</param>
+        <param name="Адрес клиники">Волоколамское ш., д.71 к.2</param>
+        <param name="Телефон для записи">+7(495) 535 86 10</param>
+        <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+        <param name="Телефон для записи">8 495 535-86-10</param> <!--Можно подменник аггрегатора-->
+      </offer>
+
+    </offers>
+  </shop>
+</yml_catalog>
