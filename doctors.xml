@@ -49,6 +49,11 @@
                 <name>стоматолог-эндодонт</name>
                 <url>https://arcobaleno-dent.ru/services/diagnostika/</url>
             </set>
+
+			<set id="ortodont">
+                <name>стоматолог-ортодонт</name>
+                <url>https://arcobaleno-dent.ru/services/orthodontics/</url>
+            </set>
 		
         </sets>
        
@@ -240,7 +245,7 @@
                 <price from="true">1500</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>stomatolog</set-ids> <!--специальности через запятую-->
+                <set-ids>ortodont</set-ids> <!--специальности через запятую-->
                 <picture>https://arcobaleno-dent.ru/wp-content/uploads/2024/12/image02-877x1024.jpeg</picture>
                 <description>Специализации: Лечение и профилактика растущих и взрослых пациентов с зубочелюстными аномалиями с применением съемной ("пластинки", трейнеры, функциональные аппараты) и несъемной аппаратуры - традиционными (лигируемыми) брекет-системами, Лечение зубочелюстных деформаций при помощи силиконовых капп, Подготовка брекет-системы к непрямой фиксации, непрямая фиксация.</description>
 		<categoryId>1</categoryId>
