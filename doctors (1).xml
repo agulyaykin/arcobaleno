@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='utf-8'?>
+<shop version="2.0" date="2026-11-05T15:33:47+03:00">
+  <name>Стоматология Аркобалено</name>
+  <company>ООО «Аркобалено»</company>
+  <url>https://arcobaleno-dent.ru/</url>
+  <picture>https://rawcdn.githack.com/agulyaykin/arcobaleno/aabd1657e1dc9b3f8126c0b2b969578b7ac1aa87/w_xEh4M9EnM.jpg</picture>
+  <email>info@arcobaleno-dent.ru</email>
+  <doctors>
+    <doctor id="11112">
+      <name>Абдулатипов Магомед Абдулатипович</name>
+      <url>https://arcobaleno-dent.ru/vrachi/abdulatipov-magomed-abdulatipovich/</url>
+      <description>Специализации: Профессиональная гигиена полости рта, стоматология терапевтическая, лечение кариеса и его осложнений, эстетическая реставрация, эндодонтическое лечение, микропротезирование, владение современными технологиями протезирования, съемное и несъемное протезирование, протезирование на имплантах</description>
+      <first_name>Магомед</first_name>
+      <surname>Абдулатипов</surname>
+      <patronymic>Абдулатипович</patronymic>
+      <picture>https://arcobaleno-dent.ru/wp-content/uploads/2022/12/image0-4.jpeg</picture>
+      <career_start_date>2017-01-01</career_start_date>
+      <education>
+        <organization>ФГБОУ ВО «Московский государственный медико-стоматологический университет имени А.И.Евдокимова»</organization>
+        <finish_year>2018</finish_year>
+        <type>Базовое образование</type>
+        <specialization>Стоматология, врач</specialization>
+      </education>
+      <education>
+        <organization>ГБУЗ Моск. обл. «Московский областной научно — исследовательский клинический институт им. М.Ф. Владимирского»</organization>
+        <finish_year>2020</finish_year>
+        <type>Диплом об окончании ординатуры</type>
+        <specialization>Врач стоматолог-ортопед</specialization>
+      </education>
+    </doctor>
+    <doctor id="11114">
+      <name>Медзиновский Андрей Юрьевич</name>
+      <url>https://arcobaleno-dent.ru/vrachi/medzinovskiy-andrey-yurevich/</url>
+      <description>Специализации: диагностика и лечение заболеваний пародонта (болезни дёсен), восстановление полноценной эстетики и жевательной функции с помощью хирургической операции - дентальная имплантация, предотвращение адентии (убыль) костной ткани, удаление зубов любой сложности, пластика уздечки, зубосохраняющие операции, одномоментная дентальная имплантация</description>
+      <first_name>Андрей</first_name>
+      <surname>Медзиновский</surname>
+      <patronymic>Юрьевич</patronymic>
+      <picture>https://arcobaleno-dent.ru/wp-content/uploads/2022/12/image0-1-e1770115465338-785x1024.jpeg</picture>
+      <career_start_date>2016-01-01</career_start_date>
+      <education>
+        <organization>ГБО УВПО Первый Московский Государственный Медицинский Университет имени И.М.Сеченова Министерства здравоохранения РФ</organization>
+        <finish_year>2016</finish_year>
+        <type>Базовое образование</type>
+        <specialization>Стоматология, врач</specialization>
+      </education>
+      <education>
+        <organization>ФГБУ ГНЦ РФ ФМБЦ имени А.И.Бурназяна</organization>
+        <finish_year>2018</finish_year>
+        <type>Аккредитация специалиста</type>
+        <specialization>Врач стоматолог-хирург</specialization>
+      </education>
+    </doctor>
+    <doctor id="11116">
+      <name>Калагов Хетаг Русланович</name>
+      <url>https://arcobaleno-dent.ru/vrachi/kalagov-hetag-ruslanovich/</url>
+      <description>Специализации: Профессиональная гигиена полости рта, Лечение кариеса и его осложнений, Лечение пульпита, Лечение периодонтита, Отбеливание, Лечение «без сверления», Художественная реставрация, Реминерализация, Вкладка «Emax», Удаление Зубов, Лечение каналов (специализация Эндодонтия)</description>
+      <first_name>Хетаг</first_name>
+      <surname>Калагов</surname>
+      <patronymic>Русланович</patronymic>
+      <picture>https://arcobaleno-dent.ru/wp-content/uploads/2023/09/image0-768x1024.jpeg</picture>
+      <career_start_date>2018-01-01</career_start_date>
+      <education>
+        <organization>ФГБО УВО «Московский государственный медико- стоматологический университет имени А.И. Евдокимова»</organization>
+        <finish_year>2020</finish_year>
+        <type>Базовое образование</type>
+        <specialization>Стоматология, врач</specialization>
+      </education>
+      <education>
+        <organization>ГБУ ЗМО «Московский областной научно- исследовательский клинический институт имени М.Ф. Владимирского</organization>
+        <finish_year>2023</finish_year>
+        <type>Диплом об окончании ординатуры</type>
+        <specialization>Стоматолог-хирург</specialization>
+      </education>
+    </doctor>
+    <doctor id="11119">
+      <name>Земская София Сергеевна</name>
+      <url>https://arcobaleno-dent.ru/vrachi/zemskaja-sofija-sergeevna/</url>
+      <description>Специализации: Прием детей от 0 до 18 лет, Профессиональная гигиена полости рта ребенка и взрослых, Профилактика кариеса, Лечение «без сверления», Лечение кариозный поражений временных и постоянных несформированных зубов, Лечение пульпитов и периодонтитов временных и постоянных зубов у детей-фторирование зубов, Художественная реставрация зубов, Адаптация детей к стоматологическому лечению.</description>
+      <first_name>София</first_name>
+      <surname>Земская</surname>
+      <patronymic>Сергеевна</patronymic>
+      <picture>https://arcobaleno-dent.ru/wp-content/uploads/2023/12/image0-2-782x1024.jpeg</picture>
+      <career_start_date>2020-01-01</career_start_date>
+      <education>
+        <organization>ФГБОУ ВО «Московский государственный медико-стоматологический университет имени А.И.Евдокимова»</organization>
+        <finish_year>2020</finish_year>
+        <type>Базовое образование</type>
+        <specialization>Стоматология, врач</specialization>
+      </education>
+    </doctor>
+    <doctor id="11120">
+      <name>Асатурян Артур Левонович</name>
+      <url>https://arcobaleno-dent.ru/vrachi/asaturjan-artur-levonovich/</url>
+      <description>Специализации: Профессиональная гигиена полости рта, Стоматология терапевтическая, Лечение кариеса и его осложнений, Эстетическая реставрация, Эндодонтическое лечение, Микропротезирование, Владение современными технологиями протезирования, Съемное и несъемное протезирование, Работа с с заболеваниями жевательных мышц и височно - нижнечелюстных суставов, Протезирование на имплантах</description>
+      <first_name>Артур</first_name>
+      <surname>Асатурян</surname>
+      <patronymic>Левонович</patronymic>
+      <picture>https://arcobaleno-dent.ru/wp-content/uploads/2024/09/image1-1-791x1024.jpeg</picture>
+      <career_start_date>2020-01-01</career_start_date>
+      <education>
+        <organization>ФГБО УВО «Саратовский государственный медицинский университет имени В.И. Разумовского» МЗ РФ г. Саратов</organization>
+        <finish_year>2020</finish_year>
+        <type>Базовое образование</type>
+        <specialization>Стоматология, врач</specialization>
+      </education>
+    </doctor>
+    <doctor id="11123">
+      <name>Богданова Альбина Фаридовна</name>
+      <url>https://arcobaleno-dent.ru/vrachi/bogdanova-albina-faridovna/</url>
+      <description>Специализации: Лечение и профилактика растущих и взрослых пациентов с зубочелюстными аномалиями с применением съемной ("пластинки", трейнеры, функциональные аппараты) и несъемной аппаратуры - традиционными (лигируемыми) брекет-системами, Лечение зубочелюстных деформаций при помощи силиконовых капп, Подготовка брекет-системы к непрямой фиксации, непрямая фиксация.</description>
+      <first_name>Альбина</first_name>
+      <surname>Богданова</surname>
+      <patronymic>Фаридовна</patronymic>
+      <picture>https://arcobaleno-dent.ru/wp-content/uploads/2024/12/image02-877x1024.jpeg</picture>
+      <career_start_date>2022-01-01</career_start_date>
+      <education>
+        <organization>ФГБО УВО «Пензенский Государственный университет» г. Пенза</organization>
+        <finish_year>2022</finish_year>
+        <type>Базовое образование</type>
+        <specialization>Стоматология, врач</specialization>
+      </education>
+    </doctor>
+  </doctors>
+  <clinics>
+    <clinic id="clinic_1">
+      <url>https://arcobaleno-dent.ru/</url>
+      <name>Стоматология Аркобалено</name>
+      <city>г. Красногорск</city>
+      <address>б-р Космонавтов, д.1</address>
+      <email>info@arcobaleno-dent.ru</email>
+      <phone>+74955358610</phone>
+    </clinic>
+  </clinics>
+  <services>
+    <service id="primary_appointment">
+      <name>Первичный прием</name>
+    </service>
+  </services>
+  <offers>
+    <offer id="vrach112">
+      <url>https://arcobaleno-dent.ru/vrachi/abdulatipov-magomed-abdulatipovich/</url>
+      <appointment>true</appointment>
+      <price>
+        <base_price>1500</base_price>
+        <currency>RUR</currency>
+      </price>
+      <service id="primary_appointment" />
+      <clinic id="clinic_1">
+        <doctor id="11112">
+          <speciality>стоматолог-ортопед</speciality>
+          <children_appointment>true</children_appointment>
+          <adult_appointment>true</adult_appointment>
+          <is_base_service>true</is_base_service>
+        </doctor>
+      </clinic>
+    </offer>
+    <offer id="vrach114">
+      <url>https://arcobaleno-dent.ru/vrachi/medzinovskiy-andrey-yurevich/</url>
+      <appointment>true</appointment>
+      <price>
+        <base_price>1500</base_price>
+        <currency>RUR</currency>
+      </price>
+      <service id="primary_appointment" />
+      <clinic id="clinic_1">
+        <doctor id="11114">
+          <speciality>стоматолог-хирург</speciality>
+          <children_appointment>true</children_appointment>
+          <adult_appointment>true</adult_appointment>
+          <is_base_service>true</is_base_service>
+        </doctor>
+      </clinic>
+    </offer>
+    <offer id="vrach114_implantolog">
+      <url>https://arcobaleno-dent.ru/vrachi/medzinovskiy-andrey-yurevich/</url>
+      <appointment>true</appointment>
+      <price>
+        <base_price>1500</base_price>
+        <currency>RUR</currency>
+      </price>
+      <service id="primary_appointment" />
+      <clinic id="clinic_1">
+        <doctor id="11114">
+          <speciality>стоматолог-имплантолог</speciality>
+          <children_appointment>true</children_appointment>
+          <adult_appointment>true</adult_appointment>
+          <is_base_service>true</is_base_service>
+        </doctor>
+      </clinic>
+    </offer>
+    <offer id="vrach116">
+      <url>https://arcobaleno-dent.ru/vrachi/kalagov-hetag-ruslanovich/</url>
+      <appointment>true</appointment>
+      <price>
+        <base_price>1500</base_price>
+        <currency>RUR</currency>
+      </price>
+      <service id="primary_appointment" />
+      <clinic id="clinic_1">
+        <doctor id="11116">
+          <speciality>стоматолог-терапевт</speciality>
+          <children_appointment>false</children_appointment>
+          <adult_appointment>true</adult_appointment>
+          <is_base_service>true</is_base_service>
+        </doctor>
+      </clinic>
+    </offer>
+    <offer id="vrach116_hirurg">
+      <url>https://arcobaleno-dent.ru/vrachi/kalagov-hetag-ruslanovich/</url>
+      <appointment>true</appointment>
+      <price>
+        <base_price>1500</base_price>
+        <currency>RUR</currency>
+      </price>
+      <service id="primary_appointment" />
+      <clinic id="clinic_1">
+        <doctor id="11116">
+          <speciality>стоматолог-хирург</speciality>
+          <children_appointment>false</children_appointment>
+          <adult_appointment>true</adult_appointment>
+          <is_base_service>true</is_base_service>
+        </doctor>
+      </clinic>
+    </offer>
+    <offer id="vrach119">
+      <url>https://arcobaleno-dent.ru/vrachi/zemskaja-sofija-sergeevna/</url>
+      <appointment>true</appointment>
+      <price>
+        <base_price>1500</base_price>
+        <currency>RUR</currency>
+      </price>
+      <service id="primary_appointment" />
+      <clinic id="clinic_1">
+        <doctor id="11119">
+          <speciality>стоматолог</speciality>
+          <children_appointment>true</children_appointment>
+          <adult_appointment>true</adult_appointment>
+          <is_base_service>true</is_base_service>
+        </doctor>
+      </clinic>
+    </offer>
+    <offer id="vrach120">
+      <url>https://arcobaleno-dent.ru/vrachi/asaturjan-artur-levonovich/</url>
+      <appointment>true</appointment>
+      <price>
+        <base_price>1500</base_price>
+        <currency>RUR</currency>
+      </price>
+      <service id="primary_appointment" />
+      <clinic id="clinic_1">
+        <doctor id="11120">
+          <speciality>стоматолог-ортопед</speciality>
+          <children_appointment>false</children_appointment>
+          <adult_appointment>true</adult_appointment>
+          <is_base_service>true</is_base_service>
+        </doctor>
+      </clinic>
+    </offer>
+    <offer id="vrach120_gnatolog">
+      <url>https://arcobaleno-dent.ru/vrachi/asaturjan-artur-levonovich/</url>
+      <appointment>true</appointment>
+      <price>
+        <base_price>1500</base_price>
+        <currency>RUR</currency>
+      </price>
+      <service id="primary_appointment" />
+      <clinic id="clinic_1">
+        <doctor id="11120">
+          <speciality>гнатолог</speciality>
+          <children_appointment>false</children_appointment>
+          <adult_appointment>true</adult_appointment>
+          <is_base_service>true</is_base_service>
+        </doctor>
+      </clinic>
+    </offer>
+    <offer id="vrach123">
+      <url>https://arcobaleno-dent.ru/vrachi/bogdanova-albina-faridovna/</url>
+      <appointment>true</appointment>
+      <price>
+        <base_price>1500</base_price>
+        <currency>RUR</currency>
+      </price>
+      <service id="primary_appointment" />
+      <clinic id="clinic_1">
+        <doctor id="11123">
+          <speciality>стоматолог-ортодонт</speciality>
+          <children_appointment>false</children_appointment>
+          <adult_appointment>true</adult_appointment>
+          <is_base_service>true</is_base_service>
+        </doctor>
+      </clinic>
+    </offer>
+  </offers>
+</shop>
